@@ -1,0 +1,87 @@
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  position: relative;
+}
+#logo{
+  width: 70px;
+  height: 70px;
+}
+header{
+ background:#F9B1A5;
+}
+.bg-paw{
+  background-image: url(../img/Dog-Paw-Pattern.png);
+}
+.opaque-navbar {
+ background-color: rgba(216, 101, 73, 0.5);
+}
+.nav-item a{
+  font-weight: 800;
+}
+.nav-item a:hover{
+ background: rgba(255,255,255,.1);
+}
+section{
+  margin-top: 60px;
+  margin-bottom: 90px;
+}
+.carousel-caption{ 
+  position : absolute;
+  top: 30%;
+  height: 150px;
+  border-radius: 18px;
+  background: rgba(0,0,0,0.5);
+}
+.btn-color{
+ background-color: rgb(253, 150, 81);
+ color: white;
+ font-weight: 700;
+}
+.card-footer a:hover{
+  background-image: linear-gradient(80deg,rgb(255, 212, 220),rgb(255, 214, 184));
+}
+.contact-info {
+  margin-top: 10px;
+  padding-left: 0;
+}
+.card{
+  margin-bottom: 40px;
+}
+/*****  SECTION CONTACTO  *******/
+.lista{
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin-top: 30px;
+}
+.lista li{
+  padding-bottom: 50px;
+  position: relative;
+  display:block;
+}
+.lista li img{
+  width: 60px;
+  height: 40px;
+  position: absolute;
+  left: 10px;
+}
+.lista li p{
+  position: absolute;
+  left: 70px;
+  top: 10px;
+}
+.map{
+  z-index: 10;
+  background-color: transparent;
+  border: none;
+}
+.bg-toy{
+  background-color: rgba(238, 219, 195, 0.925);
+}
+.bg-footer{
+  background-color:lightsalmon;
+}
