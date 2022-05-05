@@ -1,4 +1,4 @@
-# aptpfinal
+# Curso Aprende Programando - Trabajo Final
 TP final  FrontEnd en Bootstrap HTML y CSS3 del curso Aprende Programando
 
 Consigna del trabajo final
